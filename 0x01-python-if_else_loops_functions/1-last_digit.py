@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-last = number % 10
+last = number - (10* int(number/10))
 if last > 5:
     evaluation = "greater than 5"
 elif last == 0:
