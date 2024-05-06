@@ -6,6 +6,6 @@ if last > 5:
     evaluation = "greater than 5"
 elif last == 0:
     evaluation = "0"
-elif last < 6 and las != 0:
+elif last < 6 and last != 0:
     evaluation = "less than 6 and not 0"
-print("the last digit of {} is {} and is {}".format(number, last, evaluation))
+print("Last digit of {} is {} and is {}".format(number, last, evaluation))
